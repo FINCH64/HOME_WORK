@@ -1,6 +1,6 @@
 package home_work_2.arrays;
 
-public class arrays2_2_do_while {
+public class DoWhileOperation {
     public static void main(String[] args) {
        int[] container = ArraysUtils.arrayFromConsole();
        printEveryReverse(container);

@@ -1,32 +1,27 @@
 package home_work_2.arrays;
 
-public class arrays2_2_while {
+public class ForOperation {
     public static void main(String[] args) {
         int[] container = ArraysUtils.arrayFromConsole();
-        printEveryReverse(container);
+        printNotEvery(container);
     }
 
     public static void printEvery(int[] array) {
-        int counter = 0;
-        while (counter <= array.length - 1) {
+        for (int counter = 0;counter <= array.length - 1;counter++) {
             System.out.println(array[counter]);
-            counter++;
         };
     }
 
     public static void printNotEvery(int[] array) {
-        int counter = 0;
-        while (counter <= array.length - 1) {
+        for (int counter = 0;counter <= array.length - 1;counter += 2) {
             System.out.println(array[counter]);
-            counter += 2;
         }
     }
 
     public static void printEveryReverse(int[] array) {
-        int counter = array.length - 1;
-        while (counter >= 0) {
+
+        for (int counter = array.length - 1;counter >= 0;counter--) {
             System.out.println(array[counter]);
-            counter--;
         };
     }
 }

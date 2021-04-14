@@ -1,6 +1,6 @@
 package home_work_2.arrays;
 
-public class arrays2_2_for_each {
+public class ForEachOperation {
     public static void main(String[] args) {
         int[] container = ArraysUtils.arrayFromConsole();
         printEveryReverse(container);
