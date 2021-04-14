@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" modified="2021-04-14T16:38:17.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="EZILnGGxEZXeQslR1iB3" version="14.6.0" type="github">
+  <diagram id="drkJ7pVioJhPInKI1ypD" name="Page-1">
+    <mxGraphModel dx="1072" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="moPUlvtugoLfpVTzHg_z-15" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720.01" y="520" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-16" value="Начало" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="765.01" y="540" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-15" target="moPUlvtugoLfpVTzHg_z-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840.01" y="950" as="sourcePoint" />
+            <mxPoint x="890.01" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730.01" y="640" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-19" value="Задаём массив" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="755.01" y="660" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-20" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="673.1300000000001" y="985" width="333.75" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Элемент больше предыдущего?&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1015" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-24" value="ДА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1015" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-25" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-20" target="moPUlvtugoLfpVTzHg_z-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1050" as="sourcePoint" />
+            <mxPoint x="710" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-26" target="moPUlvtugoLfpVTzHg_z-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1010" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-28" value="Поменять местами меньший и больший элементы." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1025" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-30" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-39" target="moPUlvtugoLfpVTzHg_z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="850" as="sourcePoint" />
+            <mxPoint x="850" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="730" y="750" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-34" value="Переходим к следующему с конца элементу." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="770" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-35" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-33" target="moPUlvtugoLfpVTzHg_z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1010" as="sourcePoint" />
+            <mxPoint x="870" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-36" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.56;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-55" target="moPUlvtugoLfpVTzHg_z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="800" as="sourcePoint" />
+            <mxPoint x="710" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1477" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-37" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Нет&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1015" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-38" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-18" target="moPUlvtugoLfpVTzHg_z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1010" as="sourcePoint" />
+            <mxPoint x="710" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-39" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="985" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-41" value="Есть ли ещё предыдущие элементы&lt;font style=&quot;font-size: 18px;&quot;&gt;?&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1020" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-46" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1030" as="sourcePoint" />
+            <mxPoint x="840" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-47" value="Да&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br style=&quot;font-size: 19px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="400" y="870" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-54" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="996.25" width="280" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-56" value="В дальнейшем, вместо текущего элемента, сравниваем с сотальными предыдущий." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1030" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-57" value="" style="endArrow=classic;html=1;fontSize=19;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="moPUlvtugoLfpVTzHg_z-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="1060" as="sourcePoint" />
+            <mxPoint x="1100" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="730.01" y="1200" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-59" value="" style="endArrow=classic;html=1;fontSize=19;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-20" target="moPUlvtugoLfpVTzHg_z-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1230" as="sourcePoint" />
+            <mxPoint x="690" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-61" value="Получаем отсортированный массив." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1230" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-62" value="" style="endArrow=classic;html=1;fontSize=19;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="moPUlvtugoLfpVTzHg_z-58" target="moPUlvtugoLfpVTzHg_z-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1210" as="sourcePoint" />
+            <mxPoint x="840" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-63" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1450" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moPUlvtugoLfpVTzHg_z-64" value="Конец" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="785.01" y="1490" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
