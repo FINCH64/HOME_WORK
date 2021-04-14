@@ -44,7 +44,7 @@ public class loop3 {
                     answerFloat *= -1;
                     }
             }
-            answerString = answerString + answerFloat;
+            answerString = answerString + 1;
             System.out.println(answerString);
         }
     }
