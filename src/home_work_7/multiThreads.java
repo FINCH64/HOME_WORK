@@ -5,15 +5,22 @@ import java.util.Scanner;
 
 import static jdk.internal.net.http.common.Utils.close;
 
-public class WorkWithFiles {
-    private final Scanner scanner;
-    private final EasySearch searcher;
-    private String content;
-    private File path;
-    private String fileName;
-    private int counter;
+public class multiThreads  implements Runnable{
 
-    WorkWithFiles() {
+    private Scanner scanner;
+    private EasySearch searcher;
+    private File path;
+    private long counter;
+    private int counterOfThreads;
+    private String content;
+    private String fileName;
+    private String searchWord;
+
+    public void run() {
+        findWords(content,searchWord);
+    };
+
+    multiThreads() {
         scanner = new Scanner(System.in);
         searcher = new EasySearch();
         System.out.println("Введите название директории с файлами(должна лежать в папке home_work_7): ");
@@ -77,7 +84,8 @@ public class WorkWithFiles {
         readUsingBufferedReader();
         System.out.println("Введите искомое слово: ");
         Scanner scan = new Scanner(System.in);
-        findWords(content,scan.nextLine());
+        searchWord = scan.nextLine();
+        addNewThread();
         System.out.println("Если вам нужно осуществить поиск ещё раз,нажмите 1.");
         System.out.println("Если вам закончили искать,нажмите 2.");
         switch (scanner.nextInt()) {
@@ -89,13 +97,28 @@ public class WorkWithFiles {
                 break;
             default:
                 System.out.println("Неверный ввод");
-                break;
+        }
+    }
+
+    public void addNewThread() {
+        Thread[] threadArray = new Thread[999];
+        threadArray[counterOfThreads] = new Thread(this);
+        threadArray[counterOfThreads].start();
+        try {
+            threadArray[counterOfThreads].join();
+        } catch(InterruptedException e) {
+            e.getMessage();
+        }
+        if (counterOfThreads < 999) {
+            counterOfThreads++;
+        } else {
+            for(int i = 0;i < threadArray.length;i++)
+                threadArray[i] = null;
         }
     }
 
     public static void main(String[] args) {
-    WorkWithFiles mainClass = new WorkWithFiles();
-    mainClass.findWordsByUser();
+        multiThreads mainClass = new multiThreads();
+        mainClass.findWordsByUser();
     }
-
 }
