@@ -1,8 +1,8 @@
 package src.home_work_5;
 
-public class testClass {
-    public int someNums;
-    public String someText;
+public class testClass implements Comparable<testClass>{
+    private int someNums;
+    private String someText;
 
     testClass(int nums) {
         this.someNums = nums;
@@ -15,6 +15,21 @@ public class testClass {
 
     testClass(String someText) {
         this.someText = someText;
+    }
+
+    public int compareTo(testClass o) {
+        if (someNums > o.getSomeNums()) {
+            return -1;
+        } else {
+            if (someNums < o.getSomeNums()) {
+                return 1;
+            } else {
+                if (someNums == o.getSomeNums()) {
+                    return 0;
+                };
+            }
+        }
+        return -2;
     }
 
     public int getSomeNums() {
