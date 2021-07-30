@@ -1,5 +1,9 @@
 package src.home_work_4;
 
+import com.ibm.icu.text.RuleBasedNumberFormat;
+
+import java.util.Locale;
+
 public class Converters {
     private long hours;
     private long minutes;
@@ -9,7 +13,17 @@ public class Converters {
     long sum;
 
     public  String stringToWeek(int days) {
-        return days/7 + " РЅРµРґРµР»СЊ.";
+        return days/7 + " недель.";
+    }
+
+    public String toString(int number) {
+        RuleBasedNumberFormat nf = new RuleBasedNumberFormat(Locale.forLanguageTag("ru"),RuleBasedNumberFormat.SPELLOUT);
+        return nf.format(number);
+    }
+
+    public String toString(double number) {
+        RuleBasedNumberFormat nf = new RuleBasedNumberFormat(Locale.forLanguageTag("ru"),RuleBasedNumberFormat.SPELLOUT);
+        return nf.format(number);
     }
 
     public  void divideByMilis(long millisecond){
@@ -57,7 +71,7 @@ public class Converters {
         } else {
             if (!shortFormat) {
 
-                return hours + " С‡Р°СЃРѕРІ," + minutes + " РјРёРЅСѓС‚," + seconds + " СЃРµРєСѓРЅРґ," + milliseconds + " РјРёР»РёСЃРµРєСѓРЅРґ.";
+                return hours + " часов," + minutes + " минут," + seconds + " секунд," + milliseconds + " милисекунд.";
 
             }
         }
@@ -68,5 +82,8 @@ public class Converters {
         Converters conv = new Converters();
         System.out.println(conv.toHoursMinuteSecondMillisecond(7789001,false));
         System.out.println(conv.stringToWeek(177));
+        System.out.println(conv.toString(12372));
+        System.out.println(conv.toString(12372.1));
+
     }
 }
