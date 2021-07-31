@@ -63,15 +63,17 @@ public class WarAndPiece {
     public static void main(String[] args) throws IOException {
         WarAndPiece mainClass = new WarAndPiece();
         EasySearch searcher = new EasySearch();
-        //РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° EasySearch
-        System.out.println(searcher.search("РњР°РјР° РјС‹Р»Р° СЂР°РјСѓ ","РњС‹Р»"));
+        RegExSearch searcher2 = new RegExSearch();
+        System.out.println("Я - " + searcher2.search(mainClass.Story, "Я"));
+        //Тестирование класса EasySearch
+        System.out.println(searcher.search("Мама мыла раму ","Мыл"));
 
         //System.out.println(mainClass.getAllWords());
-        mainClass.findAllRepeats();
+        //mainClass.findAllRepeats();
 //        mainClass.getNMostRepeatedWords(6);
 //        mainClass.getAllRepeats();
-//        System.out.println(searcher.search(mainClass.Story, " Рё "));
-//        System.out.println(searcher.search(mainClass.Story, "РІРѕР№РЅР°"));
-//        System.out.println(searcher.search(mainClass.Story, "РјРёСЂ"));
+//        System.out.println(searcher.search(mainClass.Story, " и "));
+//        System.out.println(searcher.search(mainClass.Story, "война"));
+//        System.out.println(searcher.search(mainClass.Story, "мир"));
     }
 }
